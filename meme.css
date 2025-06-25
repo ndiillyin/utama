@@ -1,3 +1,11 @@
+body{
+display: flex;
+  margin: auto;
+  width: auto;
+  height: auto;
+  background-color: #293cd4ff;
+  
+}
 .galeri{
   overflow: hidden;
   width: auto;

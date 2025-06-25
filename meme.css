@@ -1,24 +1,34 @@
 body{
-display: flex;
+  position: relative;
+  display: flex;
   margin: auto;
   width: auto;
   height: auto;
-  background-color: #293cd4ff;
-  
+  background-color: #3442ad;
 }
 .galeri{
+  position: relative;
   overflow: hidden;
-  width: auto;
+  width: 50%;
   height: auto;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 .gif{
-  width: 200px;
-  height: 200px;
+  position: relative;
+  width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
 }
-  
+.text{
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  font-size: 2rem;
+  padding: 1rem;
+  white-space: nowrap;
+  text-align: center;
+}

@@ -49,3 +49,32 @@ max-width: 100%;
   text-indent: 1em;
   color: black;
 }
+.footer {
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1 1 180px;
+  margin: 5px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  color: #5e699e;
+}
+
+.footer a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

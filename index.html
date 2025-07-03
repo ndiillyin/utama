@@ -7,6 +7,15 @@
     <title>Utama</title>
   </head>
   <body>
+    <div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Selamat datang</h2>
+    <p>Tekan untuk lanjut coy</p>
+    <button id="enter-btn">Lanjut</button>
+  </div>
+</div>
+
+<audio id="bgm" src="love-368526.mp3" loop></audio>
     <div id="header">
       <img src="https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyeWVvaWJpZHNubmwyODJxNGFnYWFteHkwcDdjczVsZXB3ZHBlbGQxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xUPGGDNsLvqsBOhuU0/giphy.gif" alt="gif">
     </div>
@@ -43,5 +52,17 @@
     <p><em>Deploy</em> oleh Github</p>
   </div>
     </footer>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("popup");
+    const enterBtn = document.getElementById("enter-btn");
+    const bgm = document.getElementById("bgm");
+
+    enterBtn.addEventListener("click", function () {
+      popup.style.display = "none";   // Tutup popup
+      bgm.play();                     // Mulai musik
+    });
+  });
+    </script>
   </body>
   </html>

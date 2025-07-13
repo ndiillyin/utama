@@ -1,0 +1,65 @@
+html, body{
+  background-color: #8383ab;
+  margin: 0;
+  padding: 0.5rem;
+  min-height: 100%;
+  background-attachment: non-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  font-family: "Funnel Display", sans-serif;
+}
+.profil{
+  text-decoration: none;
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-bottom: 1.5px solid #15151f;
+}
+
+.deskripsi-profil{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #181823;
+  margin-bottom: 0.2rem;
+}
+
+.deskripsi{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  line-height: 1.2;
+  border-bottom: 1.5px solid #15151f
+}
+
+.deskripsi-p{
+  text-align: justify;
+  white-space: pre-line;
+  margin-bottom: 1rem;
+  text-indent: 0.8em;
+  font-family: "Funnel Display", sans-serif;
+}
+
+.opsi{
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.daftar{
+  text-align: justify;
+  white-space: pre-line;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  line-height: 1.2;
+  border-bottom: 1.5px solid #15151f
+}
+
+.daftar button{
+  font-family: "Funnel Display", sans-serif;
+  background-color: #0d0d15;
+  color: #b0b0d0;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  }
